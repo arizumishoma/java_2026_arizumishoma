@@ -6,7 +6,7 @@ package kakunin05.question09;
 class School {
 
 	Student[] students = new Student[3];
-
+    
 	// 2
 
 	// 3
