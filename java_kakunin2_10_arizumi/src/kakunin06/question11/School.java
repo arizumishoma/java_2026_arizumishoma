@@ -26,7 +26,9 @@ public class School {
 	}
 	
 	// 2
-
-	// 3
+	int getNum() {
+		
+	}
+	// 3 
 
 }
