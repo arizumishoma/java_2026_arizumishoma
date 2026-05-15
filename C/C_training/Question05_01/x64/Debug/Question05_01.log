@@ -1,0 +1,4 @@
+﻿  Question05_05 .c
+C:\Users\user\Desktop\java_2026_arizumishoma\C\C_training\Question05_01\Question05_05 .c(5,3): warning C4013: 関数 'printf' は定義されていません。int 型の値を返す外部関数と見なします。
+Question05_05 .obj : error LNK2005: main は既に Question05_01 .obj で定義されています。
+C:\Users\user\Desktop\java_2026_arizumishoma\C\C_training\Question04_02\x64\Debug\Question05_01.exe : fatal error LNK1169: 1 つ以上の複数回定義されているシンボルが見つかりました。

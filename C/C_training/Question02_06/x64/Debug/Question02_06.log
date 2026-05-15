@@ -1,0 +1,26 @@
+﻿  Question02_06 .c
+C:\Users\user\Desktop\java_2026_arizumishoma\C\C_training\Question02_06\Question02_06 .c(12,9): warning C4477: 'printf' : 書式文字列 '%d' には、型 'int' の引数が必要ですが、可変個引数 1 は型 'size_t' です
+      C:\Users\user\Desktop\java_2026_arizumishoma\C\C_training\Question02_06\Question02_06 .c(12,9):
+      書式文字列に '%zd' を使用することをお勧めします
+  
+C:\Users\user\Desktop\java_2026_arizumishoma\C\C_training\Question02_06\Question02_06 .c(13,9): warning C4477: 'printf' : 書式文字列 '%d' には、型 'int' の引数が必要ですが、可変個引数 1 は型 'size_t' です
+      C:\Users\user\Desktop\java_2026_arizumishoma\C\C_training\Question02_06\Question02_06 .c(13,9):
+      書式文字列に '%zd' を使用することをお勧めします
+  
+C:\Users\user\Desktop\java_2026_arizumishoma\C\C_training\Question02_06\Question02_06 .c(14,9): warning C4477: 'printf' : 書式文字列 '%d' には、型 'int' の引数が必要ですが、可変個引数 1 は型 'size_t' です
+      C:\Users\user\Desktop\java_2026_arizumishoma\C\C_training\Question02_06\Question02_06 .c(14,9):
+      書式文字列に '%zd' を使用することをお勧めします
+  
+C:\Users\user\Desktop\java_2026_arizumishoma\C\C_training\Question02_06\Question02_06 .c(15,9): warning C4477: 'printf' : 書式文字列 '%d' には、型 'int' の引数が必要ですが、可変個引数 1 は型 'size_t' です
+      C:\Users\user\Desktop\java_2026_arizumishoma\C\C_training\Question02_06\Question02_06 .c(15,9):
+      書式文字列に '%zd' を使用することをお勧めします
+  
+C:\Users\user\Desktop\java_2026_arizumishoma\C\C_training\Question02_06\Question02_06 .c(16,9): warning C4477: 'printf' : 書式文字列 '%d' には、型 'int' の引数が必要ですが、可変個引数 1 は型 'size_t' です
+      C:\Users\user\Desktop\java_2026_arizumishoma\C\C_training\Question02_06\Question02_06 .c(16,9):
+      書式文字列に '%zd' を使用することをお勧めします
+  
+C:\Users\user\Desktop\java_2026_arizumishoma\C\C_training\Question02_06\Question02_06 .c(17,9): warning C4477: 'printf' : 書式文字列 '%d' には、型 'int' の引数が必要ですが、可変個引数 1 は型 'size_t' です
+      C:\Users\user\Desktop\java_2026_arizumishoma\C\C_training\Question02_06\Question02_06 .c(17,9):
+      書式文字列に '%zd' を使用することをお勧めします
+  
+  Question02_06.vcxproj -> C:\Users\user\Desktop\java_2026_arizumishoma\C\C_training\Question03_02\x64\Debug\Question02_06.exe

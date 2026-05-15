@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\java_2026_arizumishoma\\C\\C_training\\Question02_04\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B6E4059B-F335-4AB7-B15F-AE53F85A5FBF}|Question02_04.vcxproj|C:\\Users\\user\\Desktop\\java_2026_arizumishoma\\C\\C_training\\Question02_04\\Question02_04 .cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B6E4059B-F335-4AB7-B15F-AE53F85A5FBF}|Question02_04.vcxproj|solutionrelative:Question02_04 .cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Question02_04 .cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\java_2026_arizumishoma\\C\\C_training\\Question02_04\\Question02_04 .cpp",
+              "RelativeDocumentMoniker": "Question02_04 .cpp",
+              "ToolTip": "C:\\Users\\user\\Desktop\\java_2026_arizumishoma\\C\\C_training\\Question02_04\\Question02_04 .cpp",
+              "RelativeToolTip": "Question02_04 .cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-05-12T01:58:49.079Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\java_2026_arizumishoma\\C\\C_training\\Question02_04\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B6E4059B-F335-4AB7-B15F-AE53F85A5FBF}|Question02_04.vcxproj|C:\\Users\\user\\Desktop\\java_2026_arizumishoma\\C\\C_training\\Question02_04\\Question02_04 .c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B6E4059B-F335-4AB7-B15F-AE53F85A5FBF}|Question02_04.vcxproj|solutionrelative:Question02_04 .c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Question02_04 .c",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\java_2026_arizumishoma\\C\\C_training\\Question02_04\\Question02_04 .c",
+              "RelativeDocumentMoniker": "Question02_04 .c",
+              "ToolTip": "C:\\Users\\user\\Desktop\\java_2026_arizumishoma\\C\\C_training\\Question02_04\\Question02_04 .c",
+              "RelativeToolTip": "Question02_04 .c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-05-12T01:58:49.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+﻿  Question08_02.c
+C:\Users\user\Desktop\java_2026_arizumishoma\C\C_training\Question08_02\Question08_02.c(13,8): warning C4553: '==': 式の結果が使用されていません。'=' を意図していますか?
+C:\Users\user\Desktop\java_2026_arizumishoma\C\C_training\Question08_02\Question08_02.c(36,9): warning C4013: 関数 'mathMax' は定義されていません。int 型の値を返す外部関数と見なします。
+C:\Users\user\Desktop\java_2026_arizumishoma\C\C_training\Question08_02\Question08_02.c(40,11): warning C4473: 'printf': 書式文字列として渡された引数が不足しています
+      C:\Users\user\Desktop\java_2026_arizumishoma\C\C_training\Question08_02\Question08_02.c(40,11):
+      プレースホルダーとそのパラメーターには 1 の可変個引数が必要ですが、0 が指定されています。
+      C:\Users\user\Desktop\java_2026_arizumishoma\C\C_training\Question08_02\Question08_02.c(40,11):
+      不足している可変個引数 1 が書式文字列 '%s' に必要です
+  
+C:\Users\user\Desktop\java_2026_arizumishoma\C\C_training\Question08_02\Question08_02.c(43,11): warning C4473: 'printf': 書式文字列として渡された引数が不足しています
+      C:\Users\user\Desktop\java_2026_arizumishoma\C\C_training\Question08_02\Question08_02.c(43,11):
+      プレースホルダーとそのパラメーターには 1 の可変個引数が必要ですが、0 が指定されています。
+      C:\Users\user\Desktop\java_2026_arizumishoma\C\C_training\Question08_02\Question08_02.c(43,11):
+      不足している可変個引数 1 が書式文字列 '%s' に必要です
+  
+C:\Users\user\Desktop\java_2026_arizumishoma\C\C_training\Question08_02\Question08_02.c(53,9): warning C4477: 'printf' : 書式文字列 '%n' には、型 'int *' の引数が必要ですが、可変個引数 1 は型 'int' です
+C:\Users\user\Desktop\java_2026_arizumishoma\C\C_training\Question08_02\Question08_02.c(53,9): warning C4313: 'printf': 書式文字列内の '%n' が引数 1 ('int' 型) と競合しています
+C:\Users\user\Desktop\java_2026_arizumishoma\C\C_training\Question08_02\Question08_02.c(53,9): warning C4473: 'printf': 書式文字列として渡された引数が不足しています
+      C:\Users\user\Desktop\java_2026_arizumishoma\C\C_training\Question08_02\Question08_02.c(53,9):
+      プレースホルダーとそのパラメーターには 2 の可変個引数が必要ですが、1 が指定されています。
+      C:\Users\user\Desktop\java_2026_arizumishoma\C\C_training\Question08_02\Question08_02.c(53,9):
+      不足している可変個引数 2 が書式文字列 '%d' に必要です
+  
+C:\Users\user\Desktop\java_2026_arizumishoma\C\C_training\Question08_02\Question08_02.c(28,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\user\Desktop\java_2026_arizumishoma\C\C_training\Question08_02\Question08_02.c(32,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+Question08_02.obj : error LNK2019: 未解決の外部シンボル mathMax が関数 main で参照されました
+C:\Users\user\Desktop\java_2026_arizumishoma\C\C_training\Question07_01\x64\Debug\Question08_02.exe : fatal error LNK1120: 1 件の未解決の外部参照

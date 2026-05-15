@@ -1,0 +1,9 @@
+﻿  Question07_06 .c
+C:\Users\user\Desktop\java_2026_arizumishoma\C\C_training\Question07_06\Question07_06 .c(24,28): warning C4244: '初期化中': 'double' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\user\Desktop\java_2026_arizumishoma\C\C_training\Question07_06\Question07_06 .c(29,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\user\Desktop\java_2026_arizumishoma\C\C_training\Question07_06\Question07_06 .c(33,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\user\Desktop\java_2026_arizumishoma\C\C_training\Question07_06\Question07_06 .c(37,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\user\Desktop\java_2026_arizumishoma\C\C_training\Question07_06\Question07_06 .c(41,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\user\Desktop\java_2026_arizumishoma\C\C_training\Question07_06\Question07_06 .c(45,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\user\Desktop\java_2026_arizumishoma\C\C_training\Question07_06\Question07_06 .c(49,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Question07_06.vcxproj -> C:\Users\user\Desktop\java_2026_arizumishoma\C\C_training\Question07_01\x64\Debug\Question07_06.exe

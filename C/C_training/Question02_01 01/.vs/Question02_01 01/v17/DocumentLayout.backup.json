@@ -1,0 +1,45 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\java_2026_arizumishoma\\C\\C_training\\Question02_01 01\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F850AA4E-B1E4-40C7-9E58-BE09336140E5}|Question02_01 01.vcxproj|C:\\Users\\user\\Desktop\\java_2026_arizumishoma\\C\\C_training\\Question02_01 01\\Question02_01.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F850AA4E-B1E4-40C7-9E58-BE09336140E5}|Question02_01 01.vcxproj|solutionrelative:Question02_01.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Question02_01.c",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\java_2026_arizumishoma\\C\\C_training\\Question02_01 01\\Question02_01.c",
+              "RelativeDocumentMoniker": "Question02_01.c",
+              "ToolTip": "C:\\Users\\user\\Desktop\\java_2026_arizumishoma\\C\\C_training\\Question02_01 01\\Question02_01.c",
+              "RelativeToolTip": "Question02_01.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-05-12T01:46:47.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

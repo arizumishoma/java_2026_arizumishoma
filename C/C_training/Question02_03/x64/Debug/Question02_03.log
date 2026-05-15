@@ -1,0 +1,8 @@
+﻿  Question02_06 .c
+C:\Users\user\Desktop\java_2026_arizumishoma\C\C_training\Question02_03\Question02_06 .c(10,9): warning C4477: 'printf' : 書式文字列 '%d' には、型 'int' の引数が必要ですが、可変個引数 1 は型 'size_t' です
+      C:\Users\user\Desktop\java_2026_arizumishoma\C\C_training\Question02_03\Question02_06 .c(10,9):
+      書式文字列に '%zd' を使用することをお勧めします
+  
+C:\Users\user\Desktop\java_2026_arizumishoma\C\C_training\Question02_03\Question02_06 .c(6,9): warning C4101: 'dnum1': ローカル変数は 1 度も使われていません。
+Question02_06 .obj : error LNK2005: main は既に Question02_03.obj で定義されています。
+C:\Users\user\Desktop\java_2026_arizumishoma\C\C_training\Question03_02\x64\Debug\Question02_03.exe : fatal error LNK1169: 1 つ以上の複数回定義されているシンボルが見つかりました。

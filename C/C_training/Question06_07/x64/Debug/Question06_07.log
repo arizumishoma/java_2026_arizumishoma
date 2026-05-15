@@ -1,0 +1,8 @@
+﻿  Question06_07 .c
+C:\Users\user\Desktop\java_2026_arizumishoma\C\C_training\Question06_07\Question06_07 .c(20,18): warning C4013: 関数 'atoi' は定義されていません。int 型の値を返す外部関数と見なします。
+C:\Users\user\Desktop\java_2026_arizumishoma\C\C_training\Question06_07\Question06_07 .c(19,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\user\Desktop\java_2026_arizumishoma\C\C_training\Question06_07\Question06_07 .c(23,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\user\Desktop\java_2026_arizumishoma\C\C_training\Question06_07\Question06_07 .c(27,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\user\Desktop\java_2026_arizumishoma\C\C_training\Question06_07\Question06_07 .c(31,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\user\Desktop\java_2026_arizumishoma\C\C_training\Question06_07\Question06_07 .c(35,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Question06_07.vcxproj -> C:\Users\user\Desktop\java_2026_arizumishoma\C\C_training\Question04_02\x64\Debug\Question06_07.exe
