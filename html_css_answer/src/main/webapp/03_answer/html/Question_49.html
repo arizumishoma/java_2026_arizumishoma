@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link href="../css/style2.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<header>
+			<img src="../images/hoshi.gif" class="hoshi">の甘納豆店
+		</header>
+		<div id="container">
+			<aside>
+				<ul>
+					<li><a href="#">トップ</a></li>
+					<li><a href="#">新着情報</a></li>
+					<li><a href="#">商品一覧</a></li>
+					<li><a href="#">会社案内</a></li>
+					<li><a href="#">お問い合わせ</a></li>
+				</ul>
+				<ul style="list-style:none">
+					<li><img src="../images/amakyo.gif"></li>
+					<li><img src="../images/hoshimikai.gif"></li>
+				</ul>
+			</aside>
+			<article>
+				<form action="#">
+					<table border="1">
+						<tr>
+							<th>お名前</th>
+							<td>
+								<input type="text" name="name" size="38" required>
+							</td>
+						</tr>
+						<tr>
+							<th>お住まいの地域</th>
+							<td>
+								<select name="area">
+									<option>北海道・東北</option>
+									<option>関東</option>
+									<option>中部</option>
+									<option>関西</option>
+									<option>中国・四国</option>
+									<option>九州・沖縄</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<th>電話</th>
+							<td>
+								<input type="tel" name="phone" size="38">
+							</td>
+						</tr>
+						<tr>
+							<th>Eメール</th>
+							<td>
+								<input type="email" name="mail" size="38">
+							</td>
+						</tr>
+						<tr>
+							<th>お問い合わせ種別</th>
+							<td>
+								<input type="radio" name="type" value="1" required>商品について
+								<input type="radio" name="type" value="2" required>当サイトについて
+							</td>
+						</tr>
+						<tr>
+							<th>お問い合わせ内容</th>
+							<td>
+								<textarea name="detail" cols="30" rows="5"
+								required placeholder="この欄に内容を入力してください"></textarea>
+							</td>
+						</tr>
+					</table>
+					<br>
+					<input type="submit" value="送信">
+				</form>
+			</article>
+		</div>	
+		<footer></footer>
+	</body>
+</html>

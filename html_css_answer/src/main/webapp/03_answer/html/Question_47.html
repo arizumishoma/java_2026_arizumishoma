@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+	<head>
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		<form action="xxx">
+			<table border="1">
+    			<tr>
+    				<th>お名前</th>
+    				<td><input type="text" name="name" size="38"></td>
+    			</tr>
+    			<tr>
+    				<th>お住まいの地域</th>
+    				<td>
+    	    			<select name="area">
+							<option value="1">北海道・東北</option>
+							<option value="2">関東</option>
+							<option value="3">中部</option>
+							<option value="4">関西</option>
+							<option value="5">中国・四国</option>
+							<option value="6">九州・沖縄</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<th>電話</th>
+					<td>
+						<input type="text" name="phone" size="38">
+					</td>
+				</tr>
+				<tr>
+					<th>Eメール</th>
+					<td><input type="text" name="mail" size="38"></td>
+				</tr>
+				<tr>
+					<th>お問い合わせ種別</th>	
+					<td>
+						<input type="radio" name="type" value="1">商品について
+						<input type="radio" name="type" value="2">当サイトについて
+					</td>
+				</tr>
+				<tr>
+					<th>お問い合わせ内容</th>
+					<td>
+						<textarea name="detail" cols="30" rows="5"></textarea>
+					</td>
+				</tr>
+			</table>
+			<br>
+			<input type="submit" value="送信">
+		</form>
+	</body>
+</html>
