@@ -26,7 +26,7 @@ import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 
 import jp.co.sss.controller.Kakunin10Controller;
 import jp.co.sss.entity.Operator;
-import jp.co.sss.form.LoginForm;
+import jp.co.sss.form.GetForm;
 import jp.co.sss.repository.OperatorRepository;
 
 @DisplayName("確認演習11 問題1")
@@ -54,14 +54,14 @@ class Kakunin11Test1 {
 	@Order(1)
 	@DisplayName("1. フォームクラス")
 	void test01() throws NoSuchFieldException, SecurityException, NoSuchMethodException {
-		var c = LoginForm.class;
+		var c = GetForm.class;
 		var err = c.getDeclaredField("err");
 		assertTrue(Modifier.isPrivate(err.getModifiers()), "errのアクセス修飾子が違います");
 		int acGetErr = c.getDeclaredMethod("getErr").getModifiers();
 		assertTrue(Modifier.isPublic(acGetErr), "getErrのアクセス修飾子が違います");
 		int acSetErr = c.getDeclaredMethod("setErr", Boolean.class).getModifiers();
 		assertTrue(Modifier.isPublic(acSetErr), "setErrのアクセス修飾子が違います");
-		var e = new LoginForm();
+		var e = new GetForm();
 		assertEquals("LoginForm [mail=null, pass=null, err=null]", e.toString(),
 				"toString()メソッドが正しくオーバーライドされていません");
 	}
@@ -72,7 +72,7 @@ class Kakunin11Test1 {
 	void tes02(CapturedOutput o) throws Exception {
 		var mail = "op1@ex.jp";
 		var pass = "abcde";
-		var f = new LoginForm();
+		var f = new GetForm();
 		f.setMail(mail);
 		f.setPass(pass);
 		var id = 2;
@@ -112,7 +112,7 @@ class Kakunin11Test1 {
 	void tes04(CapturedOutput o) throws Exception {
 		var mail = "xxx@ex.jp";
 		var pass = "xxxxx";
-		var f = new LoginForm();
+		var f = new GetForm();
 		f.setMail(mail);
 		f.setPass(pass);
 		when(opRepo.findByMailAndPass(mail, pass)).thenReturn(null);

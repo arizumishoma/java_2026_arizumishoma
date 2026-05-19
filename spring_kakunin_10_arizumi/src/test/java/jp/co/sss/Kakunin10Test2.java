@@ -25,7 +25,7 @@ import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 import org.springframework.validation.BindingResult;
 
 import jp.co.sss.controller.Kakunin10Controller;
-import jp.co.sss.form.LoginForm;
+import jp.co.sss.form.GetForm;
 import jp.co.sss.repository.OperatorRepository;
 
 @DisplayName("確認演習10 問題2")
@@ -66,13 +66,13 @@ class Kakunin10Test2 {
 		var c = ctr.getClass();
 		var cAnons = Arrays.toString(c.getAnnotations());
 		assertTrue(cAnons.contains("@org.springframework.stereotype.Controller"), "クラスのアノテーションが不適切です");
-		var m = c.getDeclaredMethod("login", LoginForm.class);
+		var m = c.getDeclaredMethod("login", GetForm.class);
 		var mAnons = Arrays.toString(m.getAnnotations());
 		assertTrue(mAnons.contains("@org.springframework.web.bind.annotation.RequestMapping")
 				|| mAnons.contains("@org.springframework.web.bind.annotation.GetMapping"), "loginメソッドのアノテーションが不適切です");
 		assertTrue(mAnons.contains("={\"/login\"}"), "loginメソッドのURLパスが不適切です");
 
-		var f = new LoginForm();
+		var f = new GetForm();
 		var mock = MockMvcBuilders.standaloneSetup(ctr).build();
     	var req = MockMvcRequestBuilders.get("/login").flashAttr("loginForm", f);
 		mock.perform(req)
@@ -113,7 +113,7 @@ class Kakunin10Test2 {
     @DisplayName("4. コントローラー（メソッド2）入力チェックエラーなし")
 	void tes04(CapturedOutput o) throws Exception {
 		var c = ctr.getClass();
-		var m = c.getDeclaredMethod("login", LoginForm.class, BindingResult.class);
+		var m = c.getDeclaredMethod("login", GetForm.class, BindingResult.class);
 		var mAnons = Arrays.toString(m.getAnnotations());
 		assertTrue(mAnons.contains("={\"/login\"}"), "loginメソッドのURLパスが不適切です");
 		assertTrue(mAnons.contains("@org.springframework.web.bind.annotation.PostMapping")
@@ -121,7 +121,7 @@ class Kakunin10Test2 {
 
 		var mail = "op1@ex.jp";
 		var pass = "abcde";
-		var f = new LoginForm();
+		var f = new GetForm();
 		f.setMail(mail);
 		f.setPass(pass);
 
@@ -155,7 +155,7 @@ class Kakunin10Test2 {
 	void tes06(CapturedOutput o) throws Exception {
 		var mail = "";
 		var pass = "abcde";
-		var f = new LoginForm();
+		var f = new GetForm();
 		f.setMail(mail);
 		f.setPass(pass);
 		var mock = MockMvcBuilders.standaloneSetup(ctr).build();
@@ -186,7 +186,7 @@ class Kakunin10Test2 {
 	void tes08(CapturedOutput o) throws Exception {
 		var mail = "op1#ex.jp";
 		var pass = "abcde";
-		var f = new LoginForm();
+		var f = new GetForm();
 		f.setMail(mail);
 		f.setPass(pass);
 		var mock = MockMvcBuilders.standaloneSetup(ctr).build();
@@ -218,7 +218,7 @@ class Kakunin10Test2 {
 	void tes10(CapturedOutput o) throws Exception {
 		var mail = "op1@ex.jp";
 		var pass = "abcdeabcde";
-		var f = new LoginForm();
+		var f = new GetForm();
 		f.setMail(mail);
 		f.setPass(pass);
 		var mock = MockMvcBuilders.standaloneSetup(ctr).build();

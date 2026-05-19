@@ -11,7 +11,7 @@ import org.junit.jupiter.api.Order;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestMethodOrder;
 
-import jp.co.sss.form.LoginForm;
+import jp.co.sss.form.GetForm;
 
 @DisplayName("確認演習10 問題1")
 @TestMethodOrder(OrderAnnotation.class)
@@ -21,7 +21,7 @@ class Kakunin10Test1 {
 	@Order(1)
 	@DisplayName("4. フォームクラス")
 	void test02() throws NoSuchFieldException, SecurityException, NoSuchMethodException {
-		var c = LoginForm.class;
+		var c = GetForm.class;
 		var mail = c.getDeclaredField("mail");
 		var mailAnons = Arrays.toString(mail.getAnnotations());
 		assertTrue(mailAnons.contains("@jakarta.validation.constraints.NotBlank")
@@ -39,7 +39,7 @@ class Kakunin10Test1 {
 		assertTrue(Modifier.isPublic(acGetPass), "getPassのアクセス修飾子が違います");
 		int acSetPass = c.getDeclaredMethod("setPass", String.class).getModifiers();
 		assertTrue(Modifier.isPublic(acSetPass), "setPassのアクセス修飾子が違います");
-		var e = new LoginForm();
+		var e = new GetForm();
 		assertEquals("LoginForm [mail=null, pass=null]", e.toString(),
 				"toString()メソッドが正しくオーバーライドされていません");
 	}
