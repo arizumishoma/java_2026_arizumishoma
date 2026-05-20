@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>jp.co.sss.practice</groupId>
-	<artifactId>practice</artifactId>
+	<artifactId>practice2</artifactId>
 	<version>1.0</version>
-	<name>practice</name>
+	<name>practice2</name>
 	<description>練習問題プロジェクト</description>
 	<url/>
 	<licenses>
@@ -49,11 +49,6 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
-		</dependency>
-		<dependency>
-			<groupId>jp.co.sss.shop</groupId>
-			<artifactId>shop</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
 
