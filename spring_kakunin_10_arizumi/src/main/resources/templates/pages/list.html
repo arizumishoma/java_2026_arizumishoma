@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+</head>
+
+<body>
+
+	<h1 id="t">お問い合わせ一覧</h1>
+	<table id="list" border="1">
+		<tr>
+			<th>No</th>
+			<th>氏名</th>
+			<th>問い合わせ内容</th>
+		</tr>
+		<tr th:each="i: ${inquiries}">
+			<td th:text="${i.id}"></td>
+			<td th:text="${i.name}"></td>
+			<td th:text="${i.detail}"></td>
+		</tr>
+	</table>
+	<p id="p1"><a th:href="@{/}">トップページへ</a></p>
+</body>
+
+</html>

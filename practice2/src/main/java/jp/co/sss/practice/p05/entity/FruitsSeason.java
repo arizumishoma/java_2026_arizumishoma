@@ -36,5 +36,11 @@ public class FruitsSeason {
 	public void setSeasonMonth(Integer seasonMonth) {
 		this.seasonMonth = seasonMonth;
 	}
+	@Override
+	public String toString() {
+		return "FruitsSeason [fruitId=" + fruitId + ", fruitName=" + fruitName + ", seasonMonth=" + seasonMonth + "]";
+	}
+
+
 
 }
