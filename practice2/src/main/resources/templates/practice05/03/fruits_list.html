@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Insert title here</title>
+</head>
+
+<body>
+	<h1>Spring 練習問題 基礎編 Practice5-03</h1>
+
+データベース操作 並べ替え・主キー検索
+	<hr>
+	<p>
+	<h4>果物名一覧</h4>
+	<table>
+		<tr>
+			<td>ID</td>
+			<td>名前</td>
+
+		</tr>
+		<tr th:each="f: ${fruits}">
+			<td th:text="${f.fruitId}"></td>
+			<td><a th:href="@{/fruits/detail/} + ${f.fruitId}" th:text="${f.fruitName}"></a></td>
+
+		</tr>
+	</table>
+	</p>
+
+</body>
+
+</html>
